@@ -1,0 +1,10 @@
+# ป้องกันการเข้าถึงไฟล์สำคัญโดยตรง
+<FilesMatch "config/database.php">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+
+<FilesMatch "controllers/auth.php">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
