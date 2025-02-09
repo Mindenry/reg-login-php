@@ -63,4 +63,4 @@ A **secure and simple login and registration system** built with **PHP**, **MySQ
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/simple-login-system.git
+   git clone https://github.com/mindenry/reg-login-php.git
